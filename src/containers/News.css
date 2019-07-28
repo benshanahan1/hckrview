@@ -1,0 +1,72 @@
+.error {
+    border: solid 1px red;
+    padding: 20px;
+    margin: 10px;
+}
+
+.error .title {
+    font-size: 16pt;
+    font-weight: bold;
+    color: red;
+}
+
+.error .caption {
+    font-size: 12pt;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.error .text {
+    font-size: 12pt;
+}
+
+.container {}
+
+.container .item {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    border-left: solid 5px lightgray;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.container a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container a:visited {
+    color: gray;
+}
+
+.container .item .title {
+    font-size: 16pt;
+}
+
+.container .item .score {
+    font-size: 10pt;
+    color: gray;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container .item .spacer {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    color: gray;
+}
+
+.container .item .time {
+    font-size: 10pt;
+    color: gray;
+    font-style: italic;
+    display: inline-block;
+}

@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    /* border-bottom: solid 1px gray; */
+}
+
+.header .title {
+    font-size: 29pt;
+    letter-spacing: 1px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.header .caption {
+    font-size: 10pt;
+    font-style: italic;
+}

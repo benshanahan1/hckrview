@@ -1,0 +1,20 @@
+.buttonContainer {
+    width: 25px;
+    height: 25px;
+    background: lightgray;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.buttonContainer:hover {
+    background: gray;
+}
+
+.buttonContainer .buttonText {
+    font-size: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+}
